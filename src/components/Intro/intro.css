@@ -1,0 +1,52 @@
+#intro{
+    height: calc(100vh - 4rem);
+    width: 100vw;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+.hello{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.bg{
+    position: absolute;
+    top: -4rem;
+    right: -55px;
+    z-index: -1;
+    object-fit: cover;
+    height: 115vh;
+    margin-top: 4rem;
+}
+.introContent{
+    height: 100vh;
+    width: 100vw;
+    padding: 2rem;
+    font-size: 3rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 2rem;
+}
+
+.hello{
+    font-size: 1.75rem;
+    font-weight: 100;
+}
+.introName{
+    color: yellow;
+
+}
+.introPara{
+    font-size:medium ;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+.btn{
+        background: white;
+        margin: 1rem 0;
+        padding: 0.75rem 2rem;
+        border: none;
+        border-radius:2rem ;
+}
