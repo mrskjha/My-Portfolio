@@ -11,12 +11,11 @@
 }
 .bg{
     position: absolute;
-    top: -4rem;
-    right: -55px;
+    top: -1rem;
+    right: 0rem;
     z-index: -1;
     object-fit: cover;
-    height: 115vh;
-    margin-top: 4rem;
+    height: 100vh;
 }
 .introContent{
     height: 100vh;
@@ -49,4 +48,22 @@
         padding: 0.75rem 2rem;
         border: none;
         border-radius:2rem ;
+}
+
+@media screen and (max-width:840px) {
+    .bg{
+        right: -10vw;
+    }
+    .introContent{
+        font-size: 10vw;
+    }
+    .hello{
+        font-size: 4.5vw;
+    }
+}
+
+@media screen and (max-width:480px){
+    .bg{
+        right: -105vw;
+    }
 }

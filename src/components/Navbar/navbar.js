@@ -12,7 +12,7 @@ const Navbar = () => {
             <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-100} duration={500} className="destopMenuListItem" >Home</Link>
             <Link activeClass='active' to='skills' spy={true} smooth={true} offset={-100} duration={500} className="destopMenuListItem" >About</Link>
             <Link activeClass='active' to='works' spy={true} smooth={true} offset={-100} duration={500} className="destopMenuListItem" >Portfolio</Link>
-            <Link activeClass='active' to='contact' spy={true} smooth={true} offset={-100} duration={500}  className="destopMenuListItem" >Clint</Link>
+            <Link activeClass='active' to='contact' spy={true} smooth={true} offset={-100} duration={500}  className="destopMenuListItem" >Clints</Link>
         </div>
         <button activeClass='active' to='contact' spy={true} smooth={true} offset={-100} duration={500} className="desktopMenuBtn" onClick={() =>{
            document.getElementById("contact").scrollIntoView({behavior:'smooth'});

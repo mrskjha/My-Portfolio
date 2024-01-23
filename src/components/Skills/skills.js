@@ -11,7 +11,7 @@ const Skills = () => {
     return (
         <section id="skills">
             <span className="skillTitle">What I Learn</span>
-            <span className="skillDesc">here i lernt till now this day</span>
+            <span className="skillDesc">Here i lernt till now this day and I try to learn what I am lack in skills I have making up for with my determination to learn</span>
             <div className="skillBars">
                 <div className="skillBar">
                     <h2>Language:</h2>

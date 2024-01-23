@@ -1,6 +1,6 @@
-#contact{
+#contact {
     min-height: calc(100vh - 4rem);
-    width: 100vw;
+    width: 90vw; /* Adjust the width for smaller screens */
     margin: 0 auto;
     text-align: center;
     display: flex;
@@ -8,22 +8,22 @@
     align-items: center;
     justify-content: center;
 }
-.contactPageTitle{
+
+.contactPageTitle {
     font-size: 3rem;
     margin-bottom: 1rem;
-
 }
 
-.contactForm{
+.contactForm {
     margin: 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 33vw;
-
+    width: 40vw; /* Adjust the width for smaller screens */
 }
-.name,.email,.msg{
+
+.name, .email, .msg {
     font-size: medium;
     width: 100%;
     margin: 0.5rem;
@@ -31,26 +31,36 @@
     color: white;
     border: none;
     border-radius: 0.5rem;
-    background: rgb(40,40,40);
+    background: rgb(40, 40, 40);
 }
 
-.submitBtn{
+.submitBtn {
     background: white;
     padding: 0.75rem 3.5rem;
     border: none;
     border-radius: 0.5rem;
     margin: 2rem;
-
 }
-.links{
+
+.links {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 3rem;
+    margin-top: 0rem;
 }
-.link{
+
+.link {
     object-fit: cover;
     height: 3rem;
     width: 3rem;
-    width: 3rem;
     margin: 0 0.75rem;
+}
+
+/* Media Query for smaller screens */
+@media only screen and (max-width: 768px) {
+    .contactForm,
+    .name,
+    .email,
+    .msg {
+        width: 100%; /* Adjust the width for very small screens */
+    }
 }
