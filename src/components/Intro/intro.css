@@ -15,7 +15,7 @@
     right: 0rem;
     z-index: -1;
     object-fit: cover;
-    height: 100vh;
+    height: 113vh;
 }
 .introContent{
     height: 100vh;
@@ -64,6 +64,6 @@
 
 @media screen and (max-width:480px){
     .bg{
-        right: -105vw;
+        right: -146vw;
     }
 }
