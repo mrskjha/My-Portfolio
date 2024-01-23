@@ -1,8 +1,8 @@
 .navbar {
     height: 5rem;
-    width: 99vw;
+    width: 100%;
     margin: 0 auto;
-    padding: 3rem 2rem; /* Adjust padding for smaller screens */
+    padding: 1.5rem 2rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -57,7 +57,7 @@
 /* Media Query for smaller screens */
 @media only screen and (max-width: 768px) {
     .navbar {
-        padding: 3rem 1rem; /* Adjust padding for smaller screens */
+        padding: 1.5rem 1rem; /* Adjust padding for smaller screens */
     }
     .desktopMenuBtn {
         padding: 8px 0.5rem; /* Adjust padding for smaller screens */
