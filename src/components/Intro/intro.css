@@ -57,7 +57,7 @@
 
 @media screen and (max-width: 950px) {
     .bg {
-        right: -10vw;
+        margin-top: 10vh;
         height: auto;
         width: 100vw;
         object-fit: cover;
